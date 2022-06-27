@@ -21,8 +21,4 @@ Tooling (none working):
 
 # CUE
 
-Command used to generate `.cue` file:
-
-```bash
-cue import -f -p workflow -l '#WorkflowSpec:' workflows.json
-```
+see [gen_cue.sh](./gen_cue.sh) and [cue_vet.sh](./cue_vet.sh)
